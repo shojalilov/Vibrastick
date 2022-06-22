@@ -1,1 +1,1 @@
-https://shojalilov.github.io/Anti-fly/
+ https://shojalilov.github.io/Vibrastick/
