@@ -1308,7 +1308,7 @@ body {
 }
 
 .main-2 .cta {
-    background: url(../images/product-3.png) no-repeat center center;
+    background: url(../images/product-3.png) no-repeat left center;
     background-size: contain;
     padding: 0 0 100px 0;
 }
