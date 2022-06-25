@@ -170,7 +170,9 @@ body {
     position: relative;
 }
 
-
+.hidden-image{
+    display: none;
+}
 
 /* ------ Navbar Styling Starts ----- */
 
@@ -847,7 +849,6 @@ body {
 
 .features-boxed .box-inner .box-icon i {
     font-size: 34px;
-    color: #448AFF;
 }
 
 .features-boxed .box-inner .box-info {
@@ -877,7 +878,6 @@ body {
 
 .features-boxed .box-inner .box-arrow i {
     font-size: 32px;
-    color: #448AFF;
 }
 
 
@@ -1314,7 +1314,7 @@ body {
 }
 
 .main-2 .cta-inner {
-    margin: 150px 0 0 0;
+    /*margin: 150px 0 0 0;*/
     float: right;
     text-align: center;
 }
@@ -1871,6 +1871,9 @@ body {
         padding: 0;
         margin: 0;
     }
+    .hidden-image{
+        display: block;
+    }
 
 }
 
@@ -1911,7 +1914,7 @@ body {
 @media only screen and (min-width: 1024px) {
 
     .features-text {
-        padding: 100px 0 0 0;
+        /*padding: 100px 0 0 0;*/
     }
 
     .main-2 .cta-inner {
@@ -1919,6 +1922,7 @@ body {
         float: none;
         text-align: justify;
     }
+
     .hidden-button{
         display: none;
     }
@@ -1987,6 +1991,9 @@ body {
     .main-2 .cta{
         background-image: none;
     }
+    .hidden-image{
+        display: block;
+    }
     .logo-main{
         padding: 0;
         margin: 0;
@@ -2023,8 +2030,47 @@ body {
     .main-2 .cta{
         background-image: none;
     }
+    .hidden-image{
+        display: block;
+    }
     .logo-main{
         padding: 0;
         margin: 0;
+    }
+}
+
+
+/* Custom Responsiveness */
+@media screen and (max-width: 399px){
+    .hero-2{
+    padding: 110px 0 50px 0;
+    }
+    .features{
+        padding: 10px 10px !important;
+    }
+    .features-boxed{
+        padding: 10px 10px !important;
+    }
+    features-boxed .boxed-intro{
+        padding: 10px 10px 10px 10px !important;
+
+    }
+
+}
+
+@media only screen and (max-width: 420px){
+    .hero-2{
+
+    }
+    features-boxed .boxed-intro{
+        padding: 10px 10px 10px 10px !important;
+
+    }
+}
+
+@media only screen and (max-width: 766px){
+    .features-boxed .boxed-intro {
+        padding: 20px 0 50px 15px !important;
+        overflow: hidden;
     }
 }
