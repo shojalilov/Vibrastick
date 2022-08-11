@@ -57,7 +57,42 @@
     .custom-video{
     height: 300px;
     }
+    .caption{
+        border-top: none !important;
+        border-bottom: 1px solid #EBEBEB;
+    }
+
 }
-
-
-
+.thumbnail img{
+    margin-bottom: 20px;
+}
+.card-title{
+    font-size: 25px;
+    font-weight: 500;
+    margin-top: 30px;
+}
+.thumbnail{
+    border: none;
+    background-color: #FFFFFF;
+}
+.caption{
+    border-top: 1px solid #EBEBEB;
+}
+.card-text{
+    margin-top: 8px;
+    font-size: 16px;
+    line-height: 1.6;
+    font-weight: 500;
+    position: relative;
+    color: rgba(0, 0, 0, 0.5);
+}
+.card-content{
+    display: flex;
+    gap: 20px;
+}
+.card-content-img{
+    width: 24px;
+    height: 24px;
+    margin-bottom: 0 !important;
+    margin-top: 12px;
+}

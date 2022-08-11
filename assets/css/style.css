@@ -790,12 +790,12 @@ body {
 -----------------------------------------------------------------*/
 
 .features-boxed {
-    padding: 50px 0 20px 0;
+    padding: 10px 0 20px 0;
     background: #F3F3F3;
 }
 
 .features-boxed .boxed-intro {
-    padding: 50px 0 50px 15px;
+    padding: 10px 0 50px 15px;
     overflow: hidden;
 }
 
@@ -1733,7 +1733,7 @@ body {
     }
 
     .features {
-        padding: 100px 0 100px 0;
+        padding: 50px 0 50px;
     }
 
     .flex-split {
@@ -2073,4 +2073,9 @@ body {
         padding: 20px 0 50px 15px !important;
         overflow: hidden;
     }
+}
+
+
+body,html{
+    overflow-x: hidden;
 }
