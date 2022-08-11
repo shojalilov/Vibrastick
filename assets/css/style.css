@@ -826,7 +826,7 @@ body {
 
 .features-boxed .box-inner {
     padding: 30px 30px 30px 30px;
-    margin-bottom: 30px;
+    /*margin-bottom: 30px;*/
     background: #FFFFFF;
     min-height: 300px;
     border-radius: 2px;
@@ -888,7 +888,7 @@ body {
 
 .features {
     background: #FFFFFF;
-    padding: 100px 0 50px 0;
+    padding: 10px 0 50px 0;
 }
 
 .features-text {
